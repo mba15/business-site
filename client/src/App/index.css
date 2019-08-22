@@ -1,0 +1,328 @@
+ *{
+    font-family: 'Macondo', cursive;
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 0;
+    
+   
+    
+}
+
+.content{
+    width: 100%;
+    margin-top: 10px;
+    
+    display: flex;
+}
+
+.collage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    height: 600px;
+    flex: right;
+    width: 700px;
+ }
+ .content{
+    /*  */
+ }
+.definition{
+    width: 30%;
+    margin: 70px;
+    flex: right;
+    font-size: 16px;
+   
+} 
+
+.a{
+    background-image: url(./Content/clarity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+.b{
+    background-image: url(./Content/hillside.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-right: 100px; 
+
+    height: 180px;
+    width: 240px;
+    float: right;
+}
+.c{
+    background-image: url(./Content/beachpath.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    
+    height: 250px;
+    width: 250px;
+    
+    float: left;
+}
+.d{
+    background-image: url(./Content/climb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-right: 50px;
+    height: 250px;
+    width: 150px;
+    
+    float: right;
+}
+.e{
+    background-image: url(./Content/circles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    margin-right: 10px;
+    height: 170px;
+    width: 180px;
+   
+    float:  right;
+}
+.f{
+    background-image: url(./Content/feet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 100px;
+    width: 215px;
+    float:  right;
+}
+.appWrap{
+    /* font-family: 'Macondo', cursive; */
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+    /* background-color: rgb(233, 224, 173); */
+    background-color: white;
+   
+}
+.logo{
+    border-bottom: 1px solid grey;
+   
+}
+.header{
+    display: flex;
+    height: 240px;
+   
+    /* border-top: groove 1px rgb(102, 6, 6); */
+    margin: 0px;
+    width: 100%; 
+    
+    
+}
+.footer{
+    height: 130px;
+    border-top: 1px solid black;
+}
+.header{
+    justify-content: center;
+    background-image: url(./Header/ascent.jpg);
+    background-size: cover;
+
+    height: 500px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.navbar{
+    padding: 20px;
+    text-align: right;
+}
+.navlink {
+    text-decoration: none;
+    margin: 20px;
+    padding-top: 20px;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.servicesnav{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+/* .topbar{
+    border-bottom: 2px groove black;
+    background-color: lightgrey
+} */
+.servicelinks{
+    text-align: left;
+}
+.links{
+    width: 100%;
+    text-align: right;
+}
+navlink:visited{
+    color: black;
+}
+.h1{
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: left; 
+    font-family: Buenard, serif;
+    font-weight: 900;
+    font-size: 44px;
+    color: black;
+    
+}
+h4{
+    text-align: center;
+    margin-right: 150px;
+    padding-right: 200px;
+    margin: 0;
+    margin-top: -20px
+}
+.quote{
+    margin-left: 10px;
+    text-decoration-style: shadow;
+  
+}
+.theLogo {
+    /* background-color: #ffffff75; */
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    width: 100%;
+    color: black;
+    
+}
+.contactForm{
+    height: 500px;
+    background-image: url(./pages/Contact/contactus.jpg);
+    background-size: cover;
+    float: left;
+    width: 750px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 2pc;
+}
+.form-header{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.form-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.form-overlay{
+    background-color: #b5cee8a6;
+    text-align: center;
+    height: 500px;
+    border-radius: 2pc;
+}
+/* .form{
+    background-color: #b5cee8a6;
+    text-align: center;
+
+} */
+
+.form-group{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px;
+   font-size: 20px;
+   text-align: left;
+}
+
+.submit{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border-radius: 1pc;
+}
+.contact{
+    height: 700px;
+    padding: 50px;
+}
+.contactUsInfo{
+    /* margin: 20px; */
+    margin-right: 75px;
+    padding-right: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    font-weight: 700;
+    float: right;
+}
+
+.maps{
+    height: 350px;
+    background-color: rgb(217, 236, 238);
+    /*background-image: url(./pages/Contact/map.png);*/
+    background-size: cover;
+    border-radius: 2pc;
+    border: 1px solid grey;
+    width: 400px;
+    margin: 40px;
+    /* margin-left: 50px; */
+    float: right;
+}
+.map{
+    /* position: absolute; */
+    height: 350px !important;
+    width: 400px !important;
+    border-radius: 2pc !important;
+    
+}
+.aboutPage{
+    display: flex;
+    width: 90%;
+    margin: 30px;
+}
+  .aboutWrapper{
+      width: 35%;
+      margin: 30px;
+      line-height: 1.5;
+      font-size: 16px;
+      flex: left;
+  }  
+  .about{
+      margin: 10px;
+  }
+   .bioPic {
+      height: 400px;
+      width: 400px;
+      background-image: url(./pages/About/shannon.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex: right;
+      margin-left: 200px;
+      margin-top: 40px; 
+      border-radius: 2pc;
+} 
+.footNav{
+    text-align: center;
+    height: 100px;
+    margin-top: 30px;
+    
+}
+.footnavlink{
+    text-decoration: none;
+    margin: 30px;
+    margin-top: 20px;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}

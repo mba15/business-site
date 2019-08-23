@@ -25,10 +25,7 @@ function Contact (props){
                 {/* will add contact email form to send a confirmation */}
                 <Form />
                 {/* Connect to google Maps API to get directions and view of the location */}
-                 <div className="maps">
-                    <MapContainer
-                        className="map"/> 
-                </div>    
+                <MapContainer />     
             </div>
         </div>
     )

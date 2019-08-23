@@ -265,19 +265,18 @@ h4{
 }
 
 .maps{
-    height: 350px;
-    background-color: rgb(217, 236, 238);
+    
     /*background-image: url(./pages/Contact/map.png);*/
     background-size: cover;
     border-radius: 2pc;
     border: 1px solid grey;
-    width: 400px;
+    width: 50%;
     margin: 40px;
     /* margin-left: 50px; */
-    float: right;
+
 }
 .map{
-    /* position: absolute; */
+    
     height: 350px !important;
     width: 400px !important;
     border-radius: 2pc !important;

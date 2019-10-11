@@ -20,12 +20,13 @@ function Contact (props){
                     <h3 className="contactTitle">Rooted In The Heart </h3>
                     <p className="location"> Location: 423 NE 60th Ave <br />
                     Portland, Oregon 97213 </p>
-                    <p> Phone: (971) 221-9744 </p> 
+                    <p> Phone: (971) 221-9744 </p>
+                    <div className="maps"></div>
                 </div>
                 {/* will add contact email form to send a confirmation */}
                 <Form />
                 {/* Connect to google Maps API to get directions and view of the location */}
-                <MapContainer />     
+                {/*<MapContainer />*/}
             </div>
         </div>
     )

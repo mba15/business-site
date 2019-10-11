@@ -265,19 +265,19 @@ h4{
 }
 
 .maps{
-    
-    /*background-image: url(./pages/Contact/map.png);*/
+    height: 350px;
+    background-image: url(./pages/Contact/map.png);
     background-size: cover;
     border-radius: 2pc;
     border: 1px solid grey;
-    width: 50%;
+    width: 350px;
     margin: 40px;
-    /* margin-left: 50px; */
+    margin-left: 50px;
 
 }
 .map{
     
-    height: 350px !important;
+    height: 400px !important;
     width: 400px !important;
     border-radius: 2pc !important;
     
